@@ -182,3 +182,40 @@ bash ~/.hanako/skills/ask-five-pro/scripts/check-experts.sh
 ## 许可证
 
 MIT
+
+
+---
+
+## 鸣谢与来源声明
+
+Ask Five Pro 中的专家 skill 基于**公开可验证来源**构建，分为两类：
+
+### 1. 开源社区 Skill（直接采用并标准化）
+
+以下专家 skill 来自 GitHub 开源社区，经 Brain Crew 格式标准化后纳入：
+
+| 专家 | 来源仓库 | 作者 |
+|------|----------|------|
+| 苏格拉底 | [Panmax/socrates-skill](https://github.com/Panmax/socrates-skill) | Panmax |
+| 孙子 | [justinhuangai/sun-tzu-skill](https://github.com/justinhuangai/sun-tzu-skill) | justinhuangai |
+| 雷军 | [Wike-CHI/lei-jun-perspective](https://github.com/Wike-CHI/lei-jun-perspective) | Wike-CHI |
+| 张小龙 | [yinmc7-mc/zhang-xiaolong-perspective](https://github.com/yinmc7-mc/zhang-xiaolong-perspective) | yinmc7-mc |
+
+### 2. 通过女娲 (Nuwa) 框架蒸馏生成
+
+其余专家（乔布斯、芒格、张一鸣、巴菲特、塔勒布等）通过 **[女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill)** 从公开网络资源深度调研后蒸馏生成，再经 Brain Crew 标准化为统一格式。每个专家 skill 的附录中均注明了完整的一手/二手来源清单。
+
+### 3. 原始素材来源
+
+所有专家的思维框架、决策启发式和表达 DNA 均基于以下类型的公开素材：
+- **一手来源**：演讲、访谈、播客、法庭证词、决策记录、内部培训手册、著作等
+- **二手来源**：传记、学术论文、深度分析、外部批评等
+
+> 专家 skill 不是 AI 的幻觉，而是对真实人物公开言论的结构化重构。本 skill 仅作为思维工具使用，不替代任何真实人物的观点或法律/专业建议。
+
+### 感谢
+
+- 感谢 **[女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill)** 提供的人物蒸馏框架
+- 感谢 GitHub 开源社区贡献苏格拉底、孙子、雷军、张小龙等专家 skill 的作者
+- 感谢所有被引用素材的原始创作者和研究者
+
