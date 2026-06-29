@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T10:24:58.042788",
+  "timestamp": "2026-06-29T10:29:15.573887",
   "topic": "我们要不要做短视频矩阵？",
   "overall_ok": true,
   "results": {
@@ -32,9 +32,9 @@
           "topic": "我们要不要做短视频矩阵？",
           "mode": "consensus",
           "primary_categories": [
-            "内容",
             "增长",
-            "传播"
+            "传播",
+            "内容"
           ],
           "target_panel_size": 5,
           "all_scores": [
@@ -787,9 +787,9 @@
           "topic": "我们要不要做短视频矩阵？",
           "mode": "red-team",
           "primary_categories": [
-            "增长",
-            "传播",
             "内容",
+            "传播",
+            "增长",
             "风险"
           ],
           "target_panel_size": 5,

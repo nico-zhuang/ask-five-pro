@@ -2,7 +2,7 @@
 
 > 不是专家的集合，而是让专家高效协作的机制。
 
-**版本：v2.0.3** | 状态：testing
+**版本：v2.0.4** | 状态：testing
 
 Ask Five Pro 是 Ask Five 的下一代版本，把**议会引擎**和**官方专家库**打包在一起，安装后无需配置，直接说「专家团开会」即可调用。
 
@@ -14,11 +14,11 @@ Ask Five Pro 是 Ask Five 的下一代版本，把**议会引擎**和**官方专
 
 ```bash
 # 1. 下载最新版安装包
-curl -L -o /tmp/ask-five-pro-v2.0.3.zip \
-  https://xmade.life/skills/packages/ask-five-pro/2.0.3/ask-five-pro-v2.0.3.zip
+curl -L -o /tmp/ask-five-pro-v2.0.4.zip \
+  https://xmade.life/skills/packages/ask-five-pro/2.0.4/ask-five-pro-v2.0.4.zip
 
 # 2. 本地安装
-install_skill source={ type: 'path', path: '/tmp/ask-five-pro-v2.0.3.zip' }
+install_skill source={ type: 'path', path: '/tmp/ask-five-pro-v2.0.4.zip' }
 ```
 
 ### 方式二：从 GitHub clone 后安装
@@ -191,6 +191,7 @@ bash ~/.hanako/skills/ask-five-pro/scripts/check-experts.sh
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| **v2.0.4** | 2026-06-29 | 调整能力圈边界策略为「前置说明 + 免责声明」，仅紧急危机场景直接拒绝 |
 | **v2.0.3** | 2026-06-29 | 修复安装说明、内置 brain-crew 优先加载、优化 description、增加能力圈边界、补充测试用例 |
 | **v2.0.2** | 2026-06-29 | 增加 description 字段、修复淬火模式、修复内置 brain-crew 测试路径、修复 registry 路径比较 |
 | **v2.0.1** | 2026-06-29 | 增加 `default-enabled: true`，修复 HanaAgent 设置页面技能管理不显示的问题 |
