@@ -2,7 +2,7 @@
 id: ask-five-pro
 name: ask-five-pro
 displayName: Ask Five Pro
-version: 2.0.0
+version: 2.0.1
 category: 04_workflow-automation
 owner: NicoZhuang
 author: NicoZhuang
@@ -35,12 +35,17 @@ tags:
 - decision-support
 - workflow
 changelog:
+- version: 2.0.1
+  date: '2026-06-29'
+  changes:
+  - 增加 default-enabled: true，修复设置页面技能管理不显示的问题
 - version: 2.0.0
   date: '2026-06-29'
   changes:
   - 完全重构，从固定 25 位专家升级为可插拔 34 位专家 + 议会引擎
   - 内置 brain-crew 专家库，安装后无需额外依赖
   - 支持共识/对抗/红队/陪审团/预审/淬火六种议会模式
+default-enabled: true
 ---
 
 > ⚠️ **本包已内置 `brain-crew` 专家库，无需额外安装依赖。** 安装后即可直接使用。
