@@ -2,7 +2,7 @@
 id: ask-five-pro
 name: ask-five-pro
 displayName: Ask Five Pro
-version: 2.0.4
+version: 2.0.5
 category: 04_workflow-automation
 owner: NicoZhuang
 author: NicoZhuang
@@ -36,6 +36,10 @@ tags:
 - decision-support
 - workflow
 changelog:
+- version: 2.0.5
+  date: '2026-06-29'
+  changes:
+  - 清理 README 和 SKILL.md changelog 中的外部平台引用，统一使用 GitHub 作为安装来源
 - version: 2.0.4
   date: '2026-06-29'
   changes:
