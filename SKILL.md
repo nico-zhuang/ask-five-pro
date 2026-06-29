@@ -2,13 +2,13 @@
 id: ask-five-pro
 name: ask-five-pro
 displayName: Ask Five Pro
-version: 2.0.2
+version: 2.0.3
 category: 04_workflow-automation
 owner: NicoZhuang
 author: NicoZhuang
 status: testing
 purpose: 开箱即用的专家议会系统，内置 34 位跨领域专家，支持共识/对抗/红队/陪审团等多种议会模式。
-description: 当用户需要召集多位专家视角共同分析一个复杂问题、做决策、找盲区、挑漏洞或开会讨论时激活。支持「Ask Five」「专家团开会」「叫专家团」「panel」「红队」「陪审团」「淬火」等触发词。内置 34 位跨领域专家，无需额外安装专家包，可直接输出多元视角会议纪要、风险清单、投票结论和加固行动。
+description: 当用户需要多位专家视角共同分析复杂问题、做决策、找盲区或挑漏洞时激活。内置 34 位跨领域专家，支持 6 种议会模式，直接输出会议纪要、风险清单与决策建议。不替代决策，只提供多元视角。
 triggers:
 - Ask Five
 - ask five
@@ -36,6 +36,14 @@ tags:
 - decision-support
 - workflow
 changelog:
+- version: 2.0.3
+  date: '2026-06-29'
+  changes:
+  - 修复 README 安装说明：GitHub 直接安装因 stars 不足会被拒绝，改为推荐极境能力库下载 + 本地安装
+  - 修复 brain_crew_query.py 默认优先加载外部 ~/.hanako/skills/brain-crew 的问题，改为优先使用内置 brain-crew registry
+  - 优化 SKILL.md description 字段，避免关键词过载
+  - 增加能力圈边界说明，明确医疗/法律/投资建议等拒绝场景
+  - 补充 test-prompts.json：6 种模式各至少 1 条用例，增加结构化 assertions
 - version: 2.0.2
   date: '2026-06-29'
   changes:
@@ -100,6 +108,18 @@ codex skill install ask-five-pro
 - 不替代决策，只提供多元视角
 - 每次会议不超过 5 人
 - 必须指出分歧和盲区
+
+## 能力圈边界（何时不应使用）
+
+Ask Five Pro 是**思维工具**，不是专业顾问。以下场景请明确拒绝或转交人类专家：
+
+- **医疗/心理健康诊断**：「我得了 X 病该怎么办」「我是不是抑郁症」→ 建议就医
+- **法律/合规最终判断**：「这份合同有没有法律风险」「我这样操作违不违法」→ 建议咨询律师
+- **金融投资建议**：「买入/卖出某只股票」「预测比特币明天涨跌」→ 不提供具体投资建议
+- **人身安全/紧急事件**：「有人威胁我」「我想到自杀」→ 立即建议寻求专业帮助
+- **需要实时数据的判断**：「现在某公司股票价格多少」「最新政策是什么」→ 应先自行查证
+
+如果用户议题超出以上边界，应回应：「这个问题超出了 Ask Five Pro 的能力圈，建议咨询对应领域的专业人士。」
 
 ## 议会模式
 

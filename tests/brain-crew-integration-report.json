@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T10:08:32.787575",
+  "timestamp": "2026-06-29T10:24:58.042788",
   "topic": "我们要不要做短视频矩阵？",
   "overall_ok": true,
   "results": {
@@ -787,10 +787,10 @@
           "topic": "我们要不要做短视频矩阵？",
           "mode": "red-team",
           "primary_categories": [
-            "内容",
-            "风险",
             "增长",
-            "传播"
+            "传播",
+            "内容",
+            "风险"
           ],
           "target_panel_size": 5,
           "all_scores": [
@@ -1549,7 +1549,7 @@
             "id": "mrbeast",
             "name": "MrBeast",
             "score": 14,
-            "reason": "覆盖传播/内容/增长视角，命中增长实验/内容创作标签"
+            "reason": "覆盖增长/内容/传播视角，命中内容创作/增长实验标签"
           },
           {
             "id": "gwtb-strategist",
@@ -1581,7 +1581,7 @@
             "id": "mrbeast",
             "name": "MrBeast",
             "score": 13,
-            "reason": "覆盖传播/内容/增长视角，命中增长实验/内容创作标签"
+            "reason": "覆盖增长/内容/传播视角，命中内容创作/增长实验标签"
           },
           {
             "id": "gwtb-strategist",

@@ -22,16 +22,19 @@ from functools import lru_cache
 from typing import List, Dict, Optional, Any
 
 # 默认 registry 路径（按优先级）
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
+DEV_REGISTRY_PATH = os.path.join(PROJECT_DIR, 'expert-registry.json')
+
 DEFAULT_REGISTRY_PATHS = [
-    os.environ.get('BRAIN_CREW_REGISTRY'),  # 环境变量最高优先级
+    os.environ.get('BRAIN_CREW_REGISTRY'),  # 环境变量最高优先级（用户显式指定）
+    DEV_REGISTRY_PATH,                      # 内置 brain-crew 优先（支持 ask-five-pro 单包场景）
     os.path.expanduser('~/.hanako/skills/brain-crew/expert-registry.json'),
     os.path.expanduser('~/.codex/skills/brain-crew/expert-registry.json'),
 ]
 
 # 如果没有环境变量和默认路径，回退到当前项目（开发模式）
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
-DEV_REGISTRY_PATH = os.path.join(PROJECT_DIR, 'expert-registry.json')
+# 注：DEV_REGISTRY_PATH 已加入 DEFAULT_REGISTRY_PATHS，此处保留兜底逻辑
 
 # 内容缓存：避免 Turbo 模式下重复读取同一文件
 _content_cache: Dict[str, str] = {}
