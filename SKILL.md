@@ -44,7 +44,7 @@ changelog:
 - version: 2.0.3
   date: '2026-06-29'
   changes:
-  - 修复 README 安装说明：GitHub 直接安装因 stars 不足会被拒绝，改为推荐极境能力库下载 + 本地安装
+  - 修复 README 安装说明：GitHub 直接安装因 stars 不足会被拒绝，改为推荐 clone 后本地安装
   - 修复 brain_crew_query.py 默认优先加载外部 ~/.hanako/skills/brain-crew 的问题，改为优先使用内置 brain-crew registry
   - 优化 SKILL.md description 字段，避免关键词过载
   - 增加能力圈边界说明，明确医疗/法律/投资建议等拒绝场景

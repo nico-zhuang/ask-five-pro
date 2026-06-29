@@ -10,18 +10,7 @@ Ask Five Pro 是 Ask Five 的下一代版本，把**议会引擎**和**官方专
 
 ## 快速开始
 
-### 方式一：从极境能力库下载安装（推荐）
-
-```bash
-# 1. 下载最新版安装包
-curl -L -o /tmp/ask-five-pro-v2.0.4.zip \
-  https://xmade.life/skills/packages/ask-five-pro/2.0.4/ask-five-pro-v2.0.4.zip
-
-# 2. 本地安装
-install_skill source={ type: 'path', path: '/tmp/ask-five-pro-v2.0.4.zip' }
-```
-
-### 方式二：从 GitHub clone 后安装
+### 方式一：从 GitHub clone 后安装（推荐）
 
 > 注意：GitHub 仓库当前 stars 数不足 25，HanaAgent 的 `install_skill github_url=...` 会被安全策略拒绝。请先用以下方式安装：
 
@@ -33,7 +22,7 @@ git clone https://github.com/nico-zhuang/ask-five-pro.git
 install_skill source={ type: 'path', path: './ask-five-pro' }
 ```
 
-### 方式三：Codex
+### 方式二：Codex
 
 ```bash
 codex skill install https://github.com/nico-zhuang/ask-five-pro
