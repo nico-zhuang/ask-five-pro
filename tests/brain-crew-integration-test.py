@@ -16,8 +16,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-# 把 Brain Crew scripts 加入路径
-sys.path.insert(0, os.path.expanduser('~/.hanako/skills/brain-crew/scripts'))
+ENGINE_DIR = Path(__file__).resolve().parent.parent
+BRAIN_CREW_DIR = ENGINE_DIR / 'brain-crew'
+BRAIN_CREW_REGISTRY = BRAIN_CREW_DIR / 'expert-registry.json'
+ENGINE_REGISTRY = ENGINE_DIR / 'references' / 'expert-registry.json'
+
+# 把内置 Brain Crew scripts 加入路径
+sys.path.insert(0, str(BRAIN_CREW_DIR / 'scripts'))
 from brain_crew_query import (
     load_registry,
     query_experts,
@@ -27,9 +32,19 @@ from brain_crew_query import (
     get_registry_stats,
 )
 
-ENGINE_DIR = Path(__file__).resolve().parent.parent
-BRAIN_CREW_REGISTRY = os.path.expanduser('~/.hanako/skills/brain-crew/expert-registry.json')
-ENGINE_REGISTRY = ENGINE_DIR / 'references' / 'expert-registry.json'
+
+def normalize_path(path):
+    """把绝对路径或带占位符的路径统一为 brain-crew 之后的相对路径，用于比较。"""
+    if not path:
+        return path
+    # 去掉 <runtime-skills-dir> 和 ~ 前缀
+    normalized = path.replace('<runtime-skills-dir>/', '').replace('<runtime-skills-dir>', '')
+    normalized = normalized.replace('~/.hanako/skills/', '').replace('~/.codex/skills/', '')
+    # 取 brain-crew/ 之后的部分
+    idx = normalized.find('brain-crew/')
+    if idx != -1:
+        return normalized[idx + len('brain-crew/'):]
+    return normalized
 VALIDATE_SCRIPT = ENGINE_DIR / 'scripts' / 'validate-expert.sh'
 MATCH_SCRIPT = ENGINE_DIR / 'scripts' / 'match-experts.py'
 
@@ -66,13 +81,19 @@ def test_registry_sync():
     eng_only = set(eng_experts) - set(bc_experts)
 
     # 忽略 engine 副本额外字段 bundled/onboarding
+    # path 字段需要 normalize 后比较，因为 brain-crew 可能使用 <runtime-skills-dir> 占位符
     field_diff = []
     for eid in bc_experts:
         bc_e = bc_experts[eid]
         eng_e = eng_experts.get(eid, {})
-        for key in ['name', 'pack', 'path', 'core_domain', 'style', 'topic_tags', 'sensitivity', 'version']:
+        for key in ['name', 'pack', 'core_domain', 'style', 'topic_tags', 'sensitivity', 'version']:
             if bc_e.get(key) != eng_e.get(key):
                 field_diff.append((eid, key, bc_e.get(key), eng_e.get(key)))
+        # path 单独 normalize 比较
+        bc_path = normalize_path(bc_e.get('path', ''))
+        eng_path = normalize_path(eng_e.get('path', ''))
+        if bc_path != eng_path:
+            field_diff.append((eid, 'path', bc_e.get('path'), eng_e.get('path')))
 
     ok = not bc_only and not eng_only and not field_diff
     print(f"  Brain Crew experts: {len(bc_experts)}")

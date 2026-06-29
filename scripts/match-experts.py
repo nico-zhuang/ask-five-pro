@@ -48,18 +48,21 @@ MODE_STYLE_PREFERENCES = {
     "red-team": ["批判", "逆向", "风险", "怀疑", "skeptical"],
     "jury": ["独立", "理性", "数据驱动"],
     "pre-mortem": ["风险", "逆向", "失败导向"],
+    "tempering": ["批判", "验证", "严格", "系统思维", "怀疑"],
 }
 
-# 模式额外注入的类别：让 red-team / pre-mortem 等模式能选中对应视角专家
+# 模式额外注入的类别：让 red-team / pre-mortem / tempering 等模式能选中对应视角专家
 MODE_EXTRA_CATEGORIES = {
     "red-team": ["风险"],
     "pre-mortem": ["风险"],
+    "tempering": ["风险", "验证"],
 }
 
 # 模式额外加权标签：在对应模式下，专家拥有这些标签会获得额外加分
 MODE_EXTRA_TAGS = {
     "red-team": ["风险控制", "逆向思考", "概念验证", "反货物崇拜", "黑天鹅", "反脆弱", "杠铃策略", "尾部风险", "不确定性", "认知偏误"],
     "pre-mortem": ["风险控制", "逆向思考", "概念验证", "反货物崇拜", "黑天鹅", "反脆弱", "杠铃策略", "尾部风险", "不确定性", "认知偏误"],
+    "tempering": ["风险控制", "逆向思考", "概念验证", "反货物崇拜", "黑天鹅", "反脆弱", "杠铃策略", "尾部风险", "不确定性", "认知偏误", "系统思维", "验证"],
 }
 
 
@@ -157,7 +160,7 @@ def main():
     parser.add_argument("--registry", required=True, help="Path to expert-registry.json")
     parser.add_argument("--topic", required=True, help="Topic text")
     parser.add_argument("--mode", default="consensus",
-                        choices=["consensus", "debate", "red-team", "jury", "pre-mortem"])
+                        choices=["consensus", "debate", "red-team", "jury", "pre-mortem", "tempering"])
     parser.add_argument("--categories", help="Comma-separated primary categories (optional, will infer if omitted)")
     parser.add_argument("--panel-size", type=int, help="Force panel size (optional)")
     args = parser.parse_args()

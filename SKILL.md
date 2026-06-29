@@ -2,12 +2,13 @@
 id: ask-five-pro
 name: ask-five-pro
 displayName: Ask Five Pro
-version: 2.0.1
+version: 2.0.2
 category: 04_workflow-automation
 owner: NicoZhuang
 author: NicoZhuang
 status: testing
 purpose: 开箱即用的专家议会系统，内置 34 位跨领域专家，支持共识/对抗/红队/陪审团等多种议会模式。
+description: 当用户需要召集多位专家视角共同分析一个复杂问题、做决策、找盲区、挑漏洞或开会讨论时激活。支持「Ask Five」「专家团开会」「叫专家团」「panel」「红队」「陪审团」「淬火」等触发词。内置 34 位跨领域专家，无需额外安装专家包，可直接输出多元视角会议纪要、风险清单、投票结论和加固行动。
 triggers:
 - Ask Five
 - ask five
@@ -35,6 +36,13 @@ tags:
 - decision-support
 - workflow
 changelog:
+- version: 2.0.2
+  date: '2026-06-29'
+  changes:
+  - 增加 SKILL.md description 字段，强化 Codex/Claude 类 skill 触发描述
+  - 修复 match-experts.py 不支持 tempering/淬火 模式的问题
+  - 修复 brain-crew-integration-test.py 硬编码 ~/.hanako/skills/brain-crew 路径的问题，改为使用内置 brain-crew
+  - 修复 registry sync 路径比较未 normalize 等价路径的问题
 - version: 2.0.1
   date: '2026-06-29'
   changes:
