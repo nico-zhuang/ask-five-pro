@@ -281,10 +281,49 @@ def test_sensitive_exclusion():
     }
 
 
+def test_boundary_guard():
+    """验证 boundary-guard.py 能正确识别边界场景。"""
+    print('\n' + '=' * 70)
+    print('7. Boundary Guard 验证')
+    print('=' * 70)
+
+    BOUNDARY_SCRIPT = ENGINE_DIR / 'scripts' / 'boundary-guard.py'
+    cases = [
+        ("我们要不要做短视频矩阵？", "analyze", "none"),
+        ("我最近胸口疼，是不是心脏病？", "disclaimer_then_analyze", "medical"),
+        ("买入特斯拉股票靠谱吗？", "disclaimer_then_analyze", "investment"),
+        ("这份劳动合同有没有坑？", "disclaimer_then_analyze", "legal"),
+        ("我想到自杀，感觉很绝望", "reject_and_refer", "emergency"),
+    ]
+
+    results = []
+    for prompt, expected_action, expected_domain in cases:
+        out = subprocess.check_output(
+            [sys.executable, str(BOUNDARY_SCRIPT), prompt],
+            text=True
+        )
+        data = json.loads(out)
+        ok = data.get('action') == expected_action and data.get('domain') == expected_domain
+        results.append({
+            'prompt': prompt,
+            'expected': {'action': expected_action, 'domain': expected_domain},
+            'actual': {'action': data.get('action'), 'domain': data.get('domain')},
+            'ok': ok
+        })
+        status = '✅' if ok else '❌'
+        print(f"  {status} [{expected_action}] {prompt[:30]}...")
+        if not ok:
+            print(f"     实际: action={data.get('action')}, domain={data.get('domain')}")
+
+    ok = all(r['ok'] for r in results)
+    print(f"\n  {'✅ Boundary Guard 正常' if ok else '❌ Boundary Guard 异常'}")
+    return ok, results
+
+
 def test_check_experts_script():
     """验证 engine 的 check-experts.sh 对 Brain Crew 专家的解析。"""
     print('\n' + '=' * 70)
-    print('7. Engine check-experts.sh 验证')
+    print('8. Engine check-experts.sh 验证')
     print('=' * 70)
 
     try:
@@ -321,6 +360,7 @@ def main():
         ('match_experts', test_match_experts),
         ('brain_crew_query', test_brain_crew_query),
         ('sensitive_exclusion', test_sensitive_exclusion),
+        ('boundary_guard', test_boundary_guard),
         ('check_experts_script', test_check_experts_script),
     ]
 
