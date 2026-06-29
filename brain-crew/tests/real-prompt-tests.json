@@ -1,0 +1,47 @@
+{
+  "description": "Brain Crew 实测 prompt 集。每个 prompt 用于验证：1) query API 能否匹配到合适的专家；2) 专家内容是否能支撑高质量回答。",
+  "prompts": [
+    {
+      "id": "prod-strategy-priority",
+      "prompt": "我们的产品有 20 个功能需求，团队资源有限，应该优先做哪个？",
+      "expected_categories": ["产品", "战略"],
+      "expected_experts": ["steve-jobs", "zhang-yiming"],
+      "success_criteria": "给出具体取舍框架，不直接说『都做』或『看情况』"
+    },
+    {
+      "id": "investment-decision",
+      "prompt": "这家公司值得投资吗？",
+      "expected_categories": ["投资", "决策"],
+      "expected_experts": ["charlie-munger", "warren-buffett"],
+      "success_criteria": "先问护城河/能力圈/安全边际，不给具体买入价"
+    },
+    {
+      "id": "content-ctr",
+      "prompt": "我的视频播放量上不去，标题是『AI编程的10个技巧』，怎么改？",
+      "expected_categories": ["内容", "传播"],
+      "expected_experts": ["mrbeast"],
+      "success_criteria": "指出标题具体问题，给出可直接改的标题和缩略图建议"
+    },
+    {
+      "id": "ai-hardware-strategy",
+      "prompt": "我们是一家初创公司，想做一个 AI 硬件产品，该从哪下手？",
+      "expected_categories": ["技术", "AI"],
+      "expected_experts": ["jensen-huang"],
+      "success_criteria": "区分卖算力 vs 卖任务体验，给出 Narrow AI 场景选择路径"
+    },
+    {
+      "id": "brand-communication-analysis",
+      "prompt": "我们拿到 3 个护肤品牌的 8000 条小红书笔记和评论，想分析沟通策略差异。",
+      "expected_categories": ["品牌", "策略"],
+      "expected_experts": ["gwtb-strategist"],
+      "success_criteria": "先做数据质量判定，再跑 GET/WHO/TO/BY 框架"
+    },
+    {
+      "id": "decision-under-uncertainty",
+      "prompt": "我面对一个重要决策，但信息不够，该怎么办？",
+      "expected_categories": ["决策"],
+      "expected_experts": ["charlie-munger", "wang-yangming"],
+      "success_criteria": "区分单向门/双向门或知/行关系，给出可执行的下一步"
+    }
+  ]
+}

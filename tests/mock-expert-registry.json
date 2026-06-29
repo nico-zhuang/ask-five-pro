@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "description": "测试用 registry，包含 4 个 mock expert，用于验证 Ask Five Engine 的多专家议会流程。",
+  "experts": [
+    {
+      "id": "mock-cto",
+      "name": "Mock CTO",
+      "core_domain": ["技术", "成本", "团队", "优先级"],
+      "style": ["理性", "数据驱动", "谨慎"],
+      "topic_tags": ["技术架构", "成本控制", "团队管理", "技术债"],
+      "path": "tests/mock-experts/mock-cto/SKILL.md",
+      "bundled": true,
+      "default_enabled": false,
+      "sensitivity": "normal"
+    },
+    {
+      "id": "mock-cmo",
+      "name": "Mock CMO",
+      "core_domain": ["品牌", "传播", "增长", "用户洞察"],
+      "style": ["直觉驱动", "故事化", "激进"],
+      "topic_tags": ["品牌定位", "短视频", "传播策略", "增长漏斗", "用户洞察"],
+      "path": "tests/mock-experts/mock-cmo/SKILL.md",
+      "bundled": true,
+      "default_enabled": false,
+      "sensitivity": "normal"
+    },
+    {
+      "id": "mock-product-lead",
+      "name": "Mock Product Lead",
+      "core_domain": ["产品", "设计", "用户体验", "优先级"],
+      "style": ["用户中心", "聚焦", "数据驱动"],
+      "topic_tags": ["需求分析", "用户体验", "优先级", "产品路线图", "MVP"],
+      "path": "tests/mock-experts/mock-product-lead/SKILL.md",
+      "bundled": true,
+      "default_enabled": false,
+      "sensitivity": "normal"
+    },
+    {
+      "id": "mock-risk-officer",
+      "name": "Mock Risk Officer",
+      "core_domain": ["风险", "合规", "逆向思考", "决策"],
+      "style": ["保守", "怀疑", "系统性"],
+      "topic_tags": ["风险评估", "合规", "失败路径", "尾部风险", "不确定性"],
+      "path": "tests/mock-experts/mock-risk-officer/SKILL.md",
+      "bundled": true,
+      "default_enabled": false,
+      "sensitivity": "normal"
+    }
+  ]
+}

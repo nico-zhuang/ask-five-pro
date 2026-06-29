@@ -1,0 +1,42 @@
+{
+  "avg_match_score": 1.0,
+  "coverage_rate": 1.0,
+  "results": [
+    {
+      "id": "prod-strategy-priority",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "steve-jobs"
+    },
+    {
+      "id": "investment-decision",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "duan-yongping"
+    },
+    {
+      "id": "content-ctr",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "mrbeast"
+    },
+    {
+      "id": "ai-hardware-strategy",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "andrej-karpathy"
+    },
+    {
+      "id": "brand-communication-analysis",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "gwtb-strategist"
+    },
+    {
+      "id": "decision-under-uncertainty",
+      "match_score": 1.0,
+      "content_covered": true,
+      "top_expert": "duan-yongping"
+    }
+  ]
+}

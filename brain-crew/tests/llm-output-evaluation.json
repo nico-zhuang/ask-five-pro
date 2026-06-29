@@ -1,0 +1,1776 @@
+{
+  "overall_avg": 7.7,
+  "total_responses": 180,
+  "files": {
+    "andrej-karpathy_llm.md": {
+      "avg_score": 8.0,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 363,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 253,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 2,
+          "first_person": false,
+          "length": 270,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 468,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 266,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 379,
+          "length_ok": true,
+          "score": 10
+        }
+      ]
+    },
+    "charlie-munger_llm-pilot.md": {
+      "avg_score": 8.0,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 360,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 283,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 379,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 365,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 390,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 409,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "darwin_llm.md": {
+      "avg_score": 7.0,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 370,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 361,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 392,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 410,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 410,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 347,
+          "length_ok": true,
+          "score": 6
+        }
+      ]
+    },
+    "david-ogilvy_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 242,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 214,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 270,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 222,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 261,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 197,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "donald-trump_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 292,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 208,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 248,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 212,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 215,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 206,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "duan-yongping_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 289,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 255,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 285,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 294,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 306,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 298,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "elon-musk_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 233,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 199,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 237,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 236,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 249,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 202,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "guodegang_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 324,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 290,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 320,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 321,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 348,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 309,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "gwtb-strategist_llm.md": {
+      "avg_score": 7.17,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 444,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 430,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 517,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 562,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 769,
+          "length_ok": false,
+          "score": 5
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 447,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "huashu-agent-swarm_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 240,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 212,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 229,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 223,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 240,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 226,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "huashu-nuwa_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 219,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 174,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 198,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 198,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 223,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 205,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "ilya-sutskever_llm.md": {
+      "avg_score": 8.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 746,
+          "length_ok": false,
+          "score": 7
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 763,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 729,
+          "length_ok": false,
+          "score": 7
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 869,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 795,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 731,
+          "length_ok": false,
+          "score": 9
+        }
+      ]
+    },
+    "jeff-bezos_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 272,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 219,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 247,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 287,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 289,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 242,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "jensen-huang_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 245,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 194,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 229,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 299,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 261,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 219,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "kazuo-inamori_llm.md": {
+      "avg_score": 7.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 421,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 364,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 2,
+          "first_person": false,
+          "length": 399,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 415,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 430,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 416,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "luxun_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 271,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 225,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 386,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 378,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 417,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 346,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "mrbeast_llm-pilot.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 250,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 182,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 243,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 210,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 245,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 174,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "nassim-taleb_llm.md": {
+      "avg_score": 7.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 2,
+          "first_person": false,
+          "length": 377,
+          "length_ok": true,
+          "score": 4
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 366,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 394,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 400,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 404,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 424,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "naval-ravikant_llm.md": {
+      "avg_score": 7.5,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 401,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 408,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 482,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 620,
+          "length_ok": false,
+          "score": 7
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 574,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 551,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "paul-graham_llm.md": {
+      "avg_score": 8.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 971,
+          "length_ok": false,
+          "score": 7
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 882,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 977,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 1239,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 1171,
+          "length_ok": false,
+          "score": 9
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 1000,
+          "length_ok": false,
+          "score": 9
+        }
+      ]
+    },
+    "qiushi_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 353,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 318,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 396,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 343,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 374,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 330,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "richard-feynman_llm.md": {
+      "avg_score": 7.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 305,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 216,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 245,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 268,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 253,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 2,
+          "first_person": false,
+          "length": 236,
+          "length_ok": true,
+          "score": 6
+        }
+      ]
+    },
+    "rob-pike_llm.md": {
+      "avg_score": 8.0,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 291,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 215,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 238,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 295,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 282,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 248,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "sigmund-freud_llm.md": {
+      "avg_score": 7.0,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 439,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": true,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 368,
+          "length_ok": true,
+          "score": 4
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 404,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 388,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 447,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 393,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "steve-jobs_llm-pilot.md": {
+      "avg_score": 8.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 298,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 282,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 293,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 289,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 293,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 243,
+          "length_ok": true,
+          "score": 10
+        }
+      ]
+    },
+    "wang-yangming_llm.md": {
+      "avg_score": 7.33,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 340,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 297,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 317,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 313,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 2,
+          "first_person": false,
+          "length": 335,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 319,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "warren-buffett_llm.md": {
+      "avg_score": 8.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 1,
+          "first_person": true,
+          "length": 581,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 318,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": true,
+          "length": 445,
+          "length_ok": true,
+          "score": 10
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 408,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 360,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 313,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "x-mastery-mentor_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 204,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 157,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 248,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 211,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 229,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 180,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "zhang-yiming_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 206,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 158,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 199,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 184,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 221,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 201,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    },
+    "zhangxuefeng_llm.md": {
+      "avg_score": 7.67,
+      "responses": [
+        {
+          "role_break": false,
+          "engineering_marker": true,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 304,
+          "length_ok": true,
+          "score": 6
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 283,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 336,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 307,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 0,
+          "first_person": false,
+          "length": 326,
+          "length_ok": true,
+          "score": 8
+        },
+        {
+          "role_break": false,
+          "engineering_marker": false,
+          "hedging_count": 1,
+          "first_person": false,
+          "length": 294,
+          "length_ok": true,
+          "score": 8
+        }
+      ]
+    }
+  }
+}

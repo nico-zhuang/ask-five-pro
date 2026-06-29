@@ -1,0 +1,885 @@
+{
+  "schema_version": "1.0.0",
+  "registry_description": "Brain Crew 专家注册表。Ask Five 引擎通过本表发现并调用各 pack 中的专家 skill。",
+  "experts": [
+    {
+      "id": "steve-jobs",
+      "name": "史蒂夫·乔布斯",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/steve-jobs-perspective/SKILL.md",
+      "core_domain": [
+        "产品",
+        "设计",
+        "战略"
+      ],
+      "style": [
+        "聚焦",
+        "极简",
+        "端到端控制"
+      ],
+      "topic_tags": [
+        "产品战略",
+        "功能取舍",
+        "用户体验",
+        "品牌表达",
+        "聚焦即说不"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "zhang-yiming",
+      "name": "张一鸣",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/zhang-yiming-perspective/SKILL.md",
+      "core_domain": [
+        "系统",
+        "组织",
+        "产品"
+      ],
+      "style": [
+        "数据驱动",
+        "延迟满足",
+        "全局优化"
+      ],
+      "topic_tags": [
+        "系统设计",
+        "组织管理",
+        "信息分发",
+        "全球化",
+        "算法思维"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "charlie-munger",
+      "name": "查理·芒格",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/munger-perspective/SKILL.md",
+      "core_domain": [
+        "决策",
+        "投资",
+        "风控"
+      ],
+      "style": [
+        "逆向思考",
+        "跨学科",
+        "干燥幽默"
+      ],
+      "topic_tags": [
+        "投资决策",
+        "认知偏误",
+        "风险控制",
+        "跨学科模型",
+        "能力圈"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "paul-graham",
+      "name": "Paul Graham",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/paul-graham-perspective/SKILL.md",
+      "core_domain": [
+        "创业",
+        "产品",
+        "写作"
+      ],
+      "style": [
+        "坦诚",
+        "极简",
+        "从第一性原理出发"
+      ],
+      "topic_tags": [
+        "初创判断",
+        "产品早期",
+        "写作表达",
+        "人生选择",
+        "反共识"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "richard-feynman",
+      "name": "理查德·费曼",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/feynman-perspective/SKILL.md",
+      "core_domain": [
+        "学习",
+        "验证",
+        "解释"
+      ],
+      "style": [
+        "反自欺",
+        "第一性原理",
+        "口语化"
+      ],
+      "topic_tags": [
+        "概念验证",
+        "反货物崇拜",
+        "第一性原理",
+        "教学表达",
+        "理解力检测"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "elon-musk",
+      "name": "埃隆·马斯克",
+      "pack": "core",
+      "path": "<runtime-skills-dir>/brain-crew/packs/core/elon-musk-perspective/SKILL.md",
+      "core_domain": [
+        "工程",
+        "成本",
+        "迭代"
+      ],
+      "style": [
+        "激进",
+        "成本拆解",
+        "快速迭代"
+      ],
+      "topic_tags": [
+        "成本结构",
+        "垂直整合",
+        "快速迭代",
+        "工程决策",
+        "白痴指数"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "mrbeast",
+      "name": "MrBeast",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/mrbeast-perspective/SKILL.md",
+      "core_domain": [
+        "内容",
+        "增长",
+        "传播"
+      ],
+      "style": [
+        "数据驱动",
+        "极端执行",
+        "留存优先"
+      ],
+      "topic_tags": [
+        "内容创作",
+        "视频留存",
+        "标题缩略图",
+        "增长实验",
+        "YouTube 策略"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "david-ogilvy",
+      "name": "大卫·奥格威",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/ogilvy-social-listening/SKILL.md",
+      "core_domain": [
+        "品牌",
+        "广告",
+        "社媒"
+      ],
+      "style": [
+        "研究驱动",
+        "经典策略",
+        "洞察优先"
+      ],
+      "topic_tags": [
+        "品牌策略",
+        "广告创意",
+        "社媒洞察",
+        "消费者研究",
+        "品牌形象"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "gwtb-strategist",
+      "name": "BBDO GWTB 策略官",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/gwtb-brand-strategy/SKILL.md",
+      "core_domain": [
+        "品牌",
+        "策略",
+        "传播"
+      ],
+      "style": [
+        "策略先行",
+        "文化洞察",
+        "整合传播"
+      ],
+      "topic_tags": [
+        "品牌策略",
+        "整合营销",
+        "文化趋势",
+        "品牌叙事",
+        "传播战役"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "luxun",
+      "name": "鲁迅",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/luxun-skill/SKILL.md",
+      "core_domain": [
+        "写作",
+        "批判",
+        "公共表达"
+      ],
+      "style": [
+        "锋利",
+        "讽刺",
+        "直指本质"
+      ],
+      "topic_tags": [
+        "写作批判",
+        "公共表达",
+        "社会观察",
+        "语言锋利度",
+        "文化批评"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "guodegang",
+      "name": "郭德纲",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/guodegang-skills/SKILL.md",
+      "core_domain": [
+        "表演",
+        "沟通",
+        "节奏"
+      ],
+      "style": [
+        "市井智慧",
+        "节奏控制",
+        "现挂"
+      ],
+      "topic_tags": [
+        "沟通节奏",
+        "表演表达",
+        "大众传播",
+        "语言艺术",
+        "临场反应"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "x-mastery-mentor",
+      "name": "X 导师",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/x-mastery-mentor/SKILL.md",
+      "core_domain": [
+        "内容",
+        "个人 IP",
+        "社媒"
+      ],
+      "style": [
+        "高频输出",
+        "观点鲜明",
+        "社区运营"
+      ],
+      "topic_tags": [
+        "X 平台",
+        "个人 IP",
+        "内容系统",
+        "社区互动",
+        "观点输出"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "pack": "brand",
+      "path": "<runtime-skills-dir>/brain-crew/packs/brand/naval-perspective/SKILL.md",
+      "core_domain": [
+        "个人成长",
+        "财富",
+        "杠杆"
+      ],
+      "style": [
+        "哲学化",
+        "长期主义",
+        "极简表达"
+      ],
+      "topic_tags": [
+        "个人品牌",
+        "财富杠杆",
+        "特定知识",
+        "长期思维",
+        "欲望管理"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/andrej-karpathy-perspective/SKILL.md",
+      "core_domain": [
+        "AI",
+        "工程",
+        "教育"
+      ],
+      "style": [
+        "教学型",
+        "系统思维",
+        "耐心拆解"
+      ],
+      "topic_tags": [
+        "LLM",
+        "AI 工程",
+        "神经网络",
+        "技术教育",
+        "AI 产品化"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/ilya-sutskever-perspective/SKILL.md",
+      "core_domain": [
+        "AI",
+        "研究",
+        "安全"
+      ],
+      "style": [
+        "深邃",
+        "Scaling",
+        "安全优先"
+      ],
+      "topic_tags": [
+        "深度学习",
+        "AI 安全",
+        "Scaling Law",
+        "超级智能",
+        "对齐问题"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "rob-pike",
+      "name": "Rob Pike",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/rob-pike-skill/SKILL.md",
+      "core_domain": [
+        "工程",
+        "设计",
+        "简洁"
+      ],
+      "style": [
+        "简洁主义",
+        "组合优先",
+        "清晰高于聪明"
+      ],
+      "topic_tags": [
+        "简洁设计",
+        "接口设计",
+        "并发模型",
+        "Unix 哲学",
+        "Go 语言"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "warren-buffett",
+      "name": "沃伦·巴菲特",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/buffett-perspective/SKILL.md",
+      "core_domain": [
+        "投资",
+        "企业",
+        "管理"
+      ],
+      "style": [
+        "长期主义",
+        "护城河",
+        "纪律性"
+      ],
+      "topic_tags": [
+        "价值投资",
+        "护城河",
+        "企业管理",
+        "资本配置",
+        "长期持有"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "sigmund-freud",
+      "name": "弗洛伊德",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/freud-skill/SKILL.md",
+      "core_domain": [
+        "心理",
+        "组织",
+        "persona"
+      ],
+      "style": [
+        "深度分析",
+        "潜意识",
+        "诊断式"
+      ],
+      "topic_tags": [
+        "心理分析",
+        "团队动力",
+        "persona 设计",
+        "动机分析",
+        "认知配置"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "qiushi",
+      "name": "求是",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/qiushi-skill/SKILL.md",
+      "core_domain": [
+        "调研",
+        "事实",
+        "研究"
+      ],
+      "style": [
+        "实事求是",
+        "田野调查",
+        "证据优先"
+      ],
+      "topic_tags": [
+        "调查研究",
+        "事实核查",
+        "田野方法",
+        "证据链",
+        "问题导向"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "nassim-taleb",
+      "name": "纳西姆·塔勒布",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/taleb-perspective/SKILL.md",
+      "core_domain": [
+        "风险",
+        "不确定性",
+        "抗脆弱"
+      ],
+      "style": [
+        "怀疑论",
+        "杠铃策略",
+        "反脆弱"
+      ],
+      "topic_tags": [
+        "黑天鹅",
+        "反脆弱",
+        "杠铃策略",
+        "尾部风险",
+        "不确定性"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "donald-trump",
+      "name": "唐纳德·特朗普",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/trump-perspective/SKILL.md",
+      "core_domain": [
+        "谈判",
+        "博弈",
+        "权力"
+      ],
+      "style": [
+        "对抗性",
+        "交易思维",
+        "戏剧化"
+      ],
+      "topic_tags": [
+        "谈判策略",
+        "权力博弈",
+        "公关对抗",
+        "利益交换",
+        "舆论操控"
+      ],
+      "sensitivity": "sensitive",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "zhang-xuefeng",
+      "name": "张雪峰",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/zhangxuefeng-perspective/SKILL.md",
+      "core_domain": [
+        "教育",
+        "表达",
+        "大众传播"
+      ],
+      "style": [
+        "直白",
+        "实用主义",
+        "情绪共鸣"
+      ],
+      "topic_tags": [
+        "教育选择",
+        "大众传播",
+        "表达策略",
+        "实用主义",
+        "情绪触发"
+      ],
+      "sensitivity": "sensitive",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "darwin",
+      "name": "达尔文 Skill",
+      "pack": "meta",
+      "path": "<runtime-skills-dir>/brain-crew/packs/meta/darwin-skill/SKILL.md",
+      "core_domain": [
+        "Skill",
+        "优化",
+        "评估"
+      ],
+      "style": [
+        "实证",
+        "迭代",
+        "评分驱动"
+      ],
+      "topic_tags": [
+        "Skill 评分",
+        "自动优化",
+        "质量评估",
+        "Validation",
+        "Rubric"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "huashu-agent-swarm",
+      "name": "花叔蜂群",
+      "pack": "meta",
+      "path": "<runtime-skills-dir>/brain-crew/packs/meta/huashu-agent-swarm/SKILL.md",
+      "core_domain": [
+        "Agent",
+        "协作",
+        "系统"
+      ],
+      "style": [
+        "分布式",
+        "自组织",
+        "并行"
+      ],
+      "topic_tags": [
+        "多 Agent",
+        "蜂群模式",
+        "并行开发",
+        "自组织",
+        "Git 协作"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "huashu-nuwa",
+      "name": "花叔女娲",
+      "pack": "meta",
+      "path": "<runtime-skills-dir>/brain-crew/packs/meta/huashu-nuwa/SKILL.md",
+      "core_domain": [
+        "Skill",
+        "蒸馏",
+        "创造"
+      ],
+      "style": [
+        "人物化",
+        "蒸馏",
+        "造人"
+      ],
+      "topic_tags": [
+        "Skill 蒸馏",
+        "人物视角",
+        "思维框架",
+        "造 Skill",
+        "Persona"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "jeff-bezos",
+      "name": "杰夫·贝佐斯",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/bezos-perspective/SKILL.md",
+      "core_domain": [
+        "运营",
+        "战略",
+        "客户"
+      ],
+      "style": [
+        "长期主义",
+        "客户痴迷",
+        "数据驱动"
+      ],
+      "topic_tags": [
+        "客户至上",
+        "Day 1",
+        "长期主义",
+        "运营飞轮",
+        "亚马逊领导力原则"
+      ],
+      "sensitivity": "normal",
+      "version": "1.0.0"
+    },
+    {
+      "id": "kazuo-inamori",
+      "name": "稻盛和夫",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/inamori-perspective/SKILL.md",
+      "core_domain": [
+        "经营",
+        "哲学",
+        "团队"
+      ],
+      "style": [
+        "利他主义",
+        "敬天爱人",
+        "实践哲学"
+      ],
+      "topic_tags": [
+        "经营哲学",
+        "阿米巴经营",
+        "敬天爱人",
+        "人生方程式",
+        "团队激励"
+      ],
+      "sensitivity": "normal",
+      "version": "1.0.0"
+    },
+    {
+      "id": "wang-yangming",
+      "name": "王阳明",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/wangyangming-perspective/SKILL.md",
+      "core_domain": [
+        "决策",
+        "心性",
+        "实践"
+      ],
+      "style": [
+        "知行合一",
+        "致良知",
+        "事上磨练"
+      ],
+      "topic_tags": [
+        "知行合一",
+        "致良知",
+        "心即理",
+        "事上磨练",
+        "逆境突围"
+      ],
+      "sensitivity": "normal",
+      "version": "1.0.0"
+    },
+    {
+      "id": "duan-yongping",
+      "name": "段永平",
+      "pack": "enterprise",
+      "path": "<runtime-skills-dir>/brain-crew/packs/enterprise/duan-yongping-perspective/SKILL.md",
+      "core_domain": [
+        "投资",
+        "商业",
+        "决策"
+      ],
+      "style": [
+        "本分",
+        "平常心",
+        "长期主义"
+      ],
+      "topic_tags": [
+        "价值投资",
+        "能力圈",
+        "本分",
+        "平常心",
+        "商业模式"
+      ],
+      "sensitivity": "normal",
+      "version": "1.0.0"
+    },
+    {
+      "id": "jensen-huang",
+      "name": "黄仁勋",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/jensen-huang-perspective/SKILL.md",
+      "core_domain": [
+        "平台",
+        "生态",
+        "AI"
+      ],
+      "style": [
+        "平台化",
+        "软硬一体",
+        "长期基础设施"
+      ],
+      "topic_tags": [
+        "AI 基础设施",
+        "平台战略",
+        "生态护城河",
+        "软硬一体",
+        "开发者体系"
+      ],
+      "sensitivity": "normal",
+      "version": "1.0.0"
+    },
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "pack": "meta",
+      "path": "<runtime-skills-dir>/brain-crew/packs/meta/socrates-perspective/SKILL.md",
+      "core_domain": [
+        "批判思维",
+        "认知谦逊",
+        "自我审视"
+      ],
+      "style": [
+        "追问",
+        "反讽",
+        "温和但锋利"
+      ],
+      "topic_tags": [
+        "苏格拉底式提问",
+        "产婆术",
+        "定义澄清",
+        "逻辑检验",
+        "价值观审视"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "sun-tzu",
+      "name": "孙子",
+      "pack": "meta",
+      "path": "<runtime-skills-dir>/brain-crew/packs/meta/sun-tzu-perspective/SKILL.md",
+      "core_domain": [
+        "战略",
+        "竞争",
+        "不确定性"
+      ],
+      "style": [
+        "冷静",
+        "压缩",
+        "形势优先"
+      ],
+      "topic_tags": [
+        "竞争策略",
+        "形势判断",
+        "间接路径",
+        "资源效率",
+        "风险感知"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "lei-jun",
+      "name": "雷军",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/lei-jun-perspective/SKILL.md",
+      "core_domain": [
+        "产品",
+        "效率",
+        "生态"
+      ],
+      "style": [
+        "真诚",
+        "数据驱动",
+        "叙事化"
+      ],
+      "topic_tags": [
+        "效率创造价值",
+        "顺势而为",
+        "用户即朋友",
+        "极致性价比",
+        "生态协同"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "zhang-xiaolong",
+      "name": "张小龙",
+      "pack": "tech",
+      "path": "<runtime-skills-dir>/brain-crew/packs/tech/zhang-xiaolong-perspective/SKILL.md",
+      "core_domain": [
+        "产品",
+        "用户体验",
+        "平台生态"
+      ],
+      "style": [
+        "克制",
+        "直觉驱动",
+        "故事化"
+      ],
+      "topic_tags": [
+        "用完即走",
+        "去中心化",
+        "用户即朋友",
+        "自然流设计",
+        "善良比聪明重要"
+      ],
+      "sensitivity": "normal",
+      "default_enabled": false,
+      "version": "1.0.0"
+    }
+  ]
+}

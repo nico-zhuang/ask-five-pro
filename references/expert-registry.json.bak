@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "description": "Ask Five Engine 专家注册表。当前引擎包不内置任何专家。请安装 expert skill 并在本 registry 的 experts 数组中注册。",
+  "experts": [],
+  "onboarding": {
+    "message": "当前没有可用专家。你可以：",
+    "options": [
+      "安装 expert-core-pack 获得 8 位核心专家",
+      "安装单个 expert skill 并在本 registry 中注册",
+      "用 nuwa-skill 蒸馏你自己的角色（如董事长、CMO、投资人）"
+    ]
+  },
+  "example_entry": {
+    "id": "steve-jobs-perspective",
+    "name": "乔布斯",
+    "core_domain": ["产品", "设计", "战略", "聚焦"],
+    "style": ["聚焦", "端到端控制", "极简"],
+    "topic_tags": ["产品设计", "品牌战略", "优先级", "用户体验"],
+    "path": "<runtime-skills-dir>/steve-jobs-perspective/SKILL.md",
+    "bundled": false,
+    "default_enabled": false,
+    "sensitivity": "normal"
+  }
+}

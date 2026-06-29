@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-28T10:30+08:00",
+  "experts_tested": [
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "pack": "meta",
+      "darwin_score": 89.9,
+      "measured_score": 10,
+      "prompt": "我最近想辞职创业，但家人都反对，我自己也有点犹豫。苏格拉底，你觉得我该怎么做？",
+      "output_summary": "纯提问式回应，6层递进追问（定义/动机/反对理由/犹豫本质/承受力/替代方案），无直接建议，产婆术执行到位。",
+      "output_length": 280,
+      "quality_notes": "高度符合skill DNA，温和但锋利，角色无泄漏。"
+    },
+    {
+      "id": "sun-tzu",
+      "name": "孙子",
+      "pack": "meta",
+      "darwin_score": 90.7,
+      "measured_score": 10,
+      "prompt": "我们是一个新品牌，想进入已经被巨头占据的咖啡市场。孙子会建议我们怎么打？",
+      "output_summary": "先看局势（巨头势/虚分析），判代价，建议间接路径（细分地形+集中兵力），给出最小可行动作（一城一店一品）。",
+      "output_length": 260,
+      "quality_notes": "形势判断优先，低成本赢思维，有具体下一步。"
+    },
+    {
+      "id": "lei-jun",
+      "name": "雷军",
+      "pack": "tech",
+      "darwin_score": 93.5,
+      "measured_score": 9,
+      "prompt": "我想做一个面向年轻人的智能硬件品牌，雷军会怎么建议我从 0 到 1？",
+      "output_summary": "三件事框架：选风口→一款产品打透→前100用户当朋友。提到效率、真诚、快速迭代。",
+      "output_length": 220,
+      "quality_notes": "口语化真诚，有个人口头禅（'认真想过'、'全部让给用户'），一处表述偏通用（'AI+智能硬件'）。"
+    },
+    {
+      "id": "zhang-xiaolong",
+      "name": "张小龙",
+      "pack": "tech",
+      "darwin_score": 95.0,
+      "measured_score": 10,
+      "prompt": "我们的 App 用户停留时长很短，老板很焦虑，团队准备加一堆 push 和 feed 流。张小龙会怎么看？",
+      "output_summary": "引用历史场景（微信早期），反对停留时长目标，点出透支信任问题，追问底层价值。",
+      "output_length": 240,
+      "quality_notes": "风格高度一致，'用户不是流量是朋友'、'麻药'等标志性表达出现。"
+    }
+  ]
+}
